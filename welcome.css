@@ -1,0 +1,149 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #333;
+}
+
+.container {
+  text-align: center;
+  position: relative;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.logout-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-btn:hover {
+  background-color: #0056b3;
+}
+
+.content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.content h2 {
+  margin-bottom: 20px;
+}
+
+.content p {
+  margin-bottom: 20px;
+}
+
+.content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.content ul li {
+  margin-bottom: 10px;
+}
+
+.content ul li a {
+  display: block;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.content ul li a:hover {
+  background-color: #0056b3;
+}
+
+.sidebar {
+  background-color: #333;
+  color: #fff;
+  width: 250px;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+  position: absolute;
+  margin-right: 1150px;
+}
+
+.sidebar h3 {
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 20px;
+}
+.alert {
+  padding: 15px;
+  background-color: #dc3545; /* Warna latar merah */
+  color: #fff; /* Warna teks putih */
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* Menambahkan efek bayangan yang lebih halus */
+.alert:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Mengatur teks close button menjadi lebih besar dan berat */
+.closebtn {
+  margin-left: 15px;
+  color: #fff; /* Warna teks putih */
+  font-weight: bold;
+  float: right;
+  font-size: 24px; /* Ukuran teks lebih besar */
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Saat mouse hover, ubah warna teks close button */
+.closebtn:hover {
+  color: #000; /* Ubah warna teks menjadi hitam */
+}
